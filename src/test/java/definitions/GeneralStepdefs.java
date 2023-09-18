@@ -9,6 +9,7 @@ public class GeneralStepdefs {
     HomePage homePage = new HomePage();
     @Given("I open google")
     public void iOpenGoogle() {
+        //
         homePage.open();
     }
 
