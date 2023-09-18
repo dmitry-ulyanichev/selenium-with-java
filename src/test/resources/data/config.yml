@@ -1,0 +1,12 @@
+browser: chrome
+testEnv: local
+isHeadless: false
+isPictures: false
+browserWindowWidth: 1920
+browserWindowHeight: 1080
+pageLoadTimeout: 60
+implicitTimeout: 1
+explicitTimeout: 10
+supportedOSList:
+  - "mac"
+  - "win"

@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pages.HomePage;
 
-public class EmptyStepdefs {
+public class GeneralStepdefs {
 
     HomePage homePage = new HomePage();
     @Given("I open google")
@@ -12,8 +12,8 @@ public class EmptyStepdefs {
         homePage.open();
     }
 
-    @Then("I wait {int} sec")
-    public void iWaitSec(int sec) throws InterruptedException {
+    @Then("I wait for {int} sec")
+    public void iWaitForSec(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
 }
