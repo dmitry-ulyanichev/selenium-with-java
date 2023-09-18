@@ -1,2 +1,4 @@
-package pages;public class HomePage {
+package pages;
+
+public class HomePage {
 }
