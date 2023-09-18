@@ -1,10 +1,10 @@
-package definitions;
+lpackage definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pages.HomePage;
 
-public class EmptyStepdefs {
+public class GeneralStepdefs {
 
     HomePage homePage = new HomePage();
     @Given("I open google")
